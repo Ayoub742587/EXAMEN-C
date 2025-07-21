@@ -1,4 +1,3 @@
-
 typedef struct {
     char titre[50];
     char auteur[30];
