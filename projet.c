@@ -102,5 +102,5 @@ void afficherStat(Livre t[], int n, int ne) {
             dispo++;
     }
 
-    printf("Total : %d | Empruntés : %d | Dispo : %d\n", n, ne, dispo);
+    printf("Total : %d | EmpruntÃ©s : %d | Dispo : %d\n", n, ne, dispo);
 }
