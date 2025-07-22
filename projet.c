@@ -6,17 +6,17 @@ int ajouterLivre(Livre t[], int n) {
     if (n >= 100)
         return n;
 
-    printf("Titre : ");
+    printf("Entrez le Titre : ");
     getchar();
     gets(t[n].titre);
 
-    printf("Auteur : ");
+    printf("Entre le nom de Auteur : ");
     gets(t[n].auteur);
 
-    printf("Annee : ");
+    printf("Entre Annee : ");
     scanf("%d", &t[n].annee);
 
-    printf("ISBN : ");
+    printf("Entre ISBN : ");
     scanf("%d", &t[n].isbn);
 
     t[n].emprunte = 0;
